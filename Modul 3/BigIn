@@ -1,0 +1,22 @@
+const a = BigInt('1234567890123456789012345678901234567890');
+const b = BigInt('9876543210987654321098765432109876543210');
+
+// Penjumlahan
+const c = a + b;
+console.log(c);
+
+// Pengurangan
+const d = b - a;
+console.log(d);
+
+// Perkalian
+const e = a * b;
+console.log(e);
+
+// Pembagian (hasil pembagian akan selalu berupa bilangan bulat)
+const f = b / a;
+console.log(f);
+
+// Modulo (sisa pembagian)
+const g = b % a;
+console.log(g);

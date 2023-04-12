@@ -1,0 +1,31 @@
+let day = 3;
+let dayName;
+
+switch (day) {
+  case 0:
+    dayName = "Minggu";
+    break;
+  case 1:
+    dayName = "Senin";
+    break;
+  case 2:
+    dayName = "Selasa";
+    break;
+  case 3:
+    dayName = "Rabu";
+    break;
+  case 4:
+    dayName = "Kamis";
+    break;
+  case 5:
+    dayName = "Jumat";
+    break;
+  case 6:
+    dayName = "Sabtu";
+    break;
+  default:
+    dayName = "Hari tidak valid";
+    break;
+}
+
+console.log(dayName);

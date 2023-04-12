@@ -1,0 +1,15 @@
+// Menampilkan bilangan bulat
+let integerNumber = 10;
+console.log("Bilangan bulat: " + integerNumber);
+
+// Menampilkan bilangan desimal
+let decimalNumber = 3.14;
+console.log("Bilangan desimal: " + decimalNumber);
+
+// Menampilkan bilangan negatif
+let negativeNumber = -5;
+console.log("Bilangan negatif: " + negativeNumber);
+
+// Menampilkan bilangan dalam notasi ilmiah
+let scientificNumber = 2.5e3;
+console.log("Bilangan ilmiah: " + scientificNumber);

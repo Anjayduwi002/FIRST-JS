@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Operators</h1>
+<p>Menampilkan Typedata <b>undefined</b>.</p>
+
+<p id="demo">
+
+<script
+let car;
+let nama;
+dokument.getElementById(demo).innerHTML =
+Car + "<br>" + typeof car;
+</script>
+
+<body>
+</body>html>
+

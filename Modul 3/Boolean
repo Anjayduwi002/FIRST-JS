@@ -1,0 +1,12 @@
+// Mendefinisikan dua variabel Boolean
+let x = true;
+let y = false;
+
+// Menampilkan nilai dari variabel x dan y
+console.log("Nilai x adalah " + x);
+console.log("Nilai y adalah " + y);
+
+// Menggunakan operator logika untuk membandingkan nilai variabel
+console.log("x AND y = " + (x && y));
+console.log("x OR y = " + (x || y));
+console.log("NOT x = " + (!x));

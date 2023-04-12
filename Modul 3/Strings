@@ -1,0 +1,27 @@
+// Mendefinisikan string
+let str = "Halo, dunia!";
+
+// Menghitung panjang string
+console.log("Panjang string: " + str.length);
+
+// Mengubah ke huruf besar
+console.log("Huruf besar: " + str.toUpperCase());
+
+// Mengubah ke huruf kecil
+console.log("Huruf kecil: " + str.toLowerCase());
+
+// Mengambil substring
+console.log("Substring: " + str.substring(0, 4));
+
+// Mencari indeks substring
+console.log("Indeks substring: " + str.indexOf("dunia"));
+
+// Mengganti substring
+console.log("Mengganti substring: " + str.replace("dunia", "semua"));
+
+// Memisahkan string
+console.log("Memisahkan string: " + str.split(","));
+
+// Menggabungkan string
+let arr = ["Halo", "semua"];
+console.log("Menggabungkan string: " + arr.join(" "));
